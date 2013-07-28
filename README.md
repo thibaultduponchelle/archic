@@ -4,11 +4,11 @@ lsd
 You can play with this stupid tool just with : 
 > lsd \`fortune\`
 
-or even
+or
 
 > lsd *
 
-or 
+or even
 
 > lsd \`cat lsd.c\`
 
