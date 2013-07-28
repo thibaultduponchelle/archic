@@ -7,7 +7,7 @@ You can play with this stupid tool just with :
 
 or a better one 
 
-> lsd `man man`
+> lsd \`man man\`
 
 or 
 
