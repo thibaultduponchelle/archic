@@ -26,3 +26,5 @@ or whatever you want.
 
 
 Help me to colorize the world (randomly :D). 
+
+![Colorize the world](https://github.com/thibaultduponchelle/lsd/blob/master/screenie.png)
