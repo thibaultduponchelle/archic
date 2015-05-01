@@ -6,7 +6,6 @@
 const int BUFFSIZ = 100;
 
 int main(int argc, char* argv[]) {
-  char buff[BUFFSIZ];
   int n;
   
   printf("Girls, just want to have fun !\n\n");
