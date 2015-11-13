@@ -3,8 +3,6 @@
 #include <unistd.h>
 #include <string.h>
 
-const int BUFFSIZ = 100;
-
 int main(int argc, char* argv[]) {
   int n;
   
