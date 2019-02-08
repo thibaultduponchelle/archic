@@ -35,9 +35,9 @@ gcc -o main_based_on_static_lib main.o foo.a bar.a far/far/away/baz.a
 #foo
 #bar
 
-#gcc -o main_based_on_dynamic_lib_no_missing_symbol main.o -Wl,--unresolved-symbols=ignore-all
-#gcc -o main_based_on_dynamic_lib_no_missing_symbol main.o -Wl,--unresolved-symbols=ignore-all -Dfoo=atexit -Dbar=atexit -Dbaz=atexit # Segfault
-#gcc -fpic -fpie -o main_based_on_dynamic_lib_no_missing_symbol main.o -Wl,--unresolved-symbols=ignore-all -Dfoo=atexit -Dbar=atexit -Dbaz=atexit
-#gcc -o main_based_on_dynamic_lib_no_missing_symbol main.o -Wl,--wrap=foo -Wl,--wrap=bar -Wl,--wrap=baz # Need to know name + define func
-#gcc -o main_based_on_dynamic_lib_no_missing_symbol main.o -lfoo -L`pwd` -Wl,--unresolved-symbols=ignore-all # Error while loading shared lib libbar
-#gcc -o main_based_on_dynamic_lib main.o
+
+#tduponchelle@ncepspdev29:~/Code/shared> gcc -o main_o main.o foo.o
+#foo.o: In function `foo':
+#foo.c:(.text+0x16): undefined reference to `bar'
+#collect2: ld returned 1 exit status
+#tduponchelle@ncepspdev29:~/Code/shared> 
