@@ -7,7 +7,6 @@
 int main(int argc, char* argv[]) {
   int n;
   
-  printf("Girls, just want to have fun !\n\n");
   srand(time(NULL)); //seed 
   for(n = 1; n < argc; n++) {
     int i = 0;
