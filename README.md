@@ -1,6 +1,6 @@
 # lsd
 
-You can play with this stupid tool just with: 
+You can play with this stupid tool for instance with: 
 ```
 lsd `man man`
 ```
