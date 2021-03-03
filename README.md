@@ -2,7 +2,7 @@
 
 You can play with this stupid tool just with: 
 ```
-lsd \`man man\`
+lsd `man man`
 ```
 Or whatever you want.
 
